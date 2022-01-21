@@ -1,0 +1,75 @@
+.first{
+    background-color:#AEFEFF;
+    height:100%;
+    width:100%;
+}
+
+.top-container{
+    font-weight: bold;
+    background-color:#AEFEFF;
+    text-align: center;
+}
+.icon{
+    margin:0 50% 0 50%;
+}
+.head{
+   position:relative;
+   left:5%;
+}
+.middle-container{
+    background-color:#ECB390;
+    padding-left:43%;
+}
+.span{
+    padding-right:20px;
+}
+.h6{
+    padding-left: 25px;
+}
+.a{
+    padding-left: 25px;
+}
+.logo{
+    position: relative;
+    left:43%;
+    
+}
+.a6{
+     padding-left:65px;
+}
+.a5{
+    padding-left:50px;
+}
+.a3{
+    padding-left: 35px;
+}
+.a4{
+    padding-left:40px;
+}
+.entertainment{
+    font-size: 100px;
+    position:relative;
+    left:45%;
+}
+.ent{
+    position:relative;
+    left:43%;
+}
+.contact{
+    text-align: center;
+    color:red;
+}
+.tree{
+    position:absolute;
+    left:0;
+}
+.tree2{
+    position:absolute;
+    right:0;
+}
+body{
+    fill:100%;
+    
+}
+
+
