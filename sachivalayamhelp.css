@@ -29,6 +29,9 @@
 .a{
     padding-left: 25px;
 }
+a{
+    color:black;
+}
 .logo{
     position: relative;
     left:43%;
