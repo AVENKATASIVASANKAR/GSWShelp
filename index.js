@@ -7,7 +7,7 @@ document.getElementById('demo').innerText=time;
 
 var i = 0;
 function change() {
-  var doc = document.getElementById("demo");
+  var doc = document.getElementById("demo1");
   var color1 = ["#B22727","#005555","#001D6E","#733C3C"];
   var color = ["#2A2550", "#B4FF9F", "#FF5F00", "#40DFEF"];
   doc.style.backgroundColor = color[i];
