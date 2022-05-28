@@ -98,6 +98,46 @@ overflow-x:hidden;
            font-size:30px;
            font-weight:600;
        }
+.youtube,.gana{
+    height:10vh; width:20vw;
+}
+  @media only screen and (max-width: 600px) {
+  img {
+    width:50%;
+  }
+  body{
+      margin:3%;
+  }
+  .card{
+      width:25vw;
+      margin:3%;
+      margin-right: 2%;
+      height: 10vh;
+  }
+  #pl,.head,.usable{
+      width:90%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  img {
+    width:50%;
+  }
+  body{
+      margin:3%;
+  }
+  .card{
+      width:23vw;
+      margin:3%;
+      
+      height: 10vh;
+  }
+  #pl,.head,.usable{
+      width:90%;
+  }
+  #youtube{
+      width:20vw;
+  }
+}
    </style>
 </head>
     <body>
@@ -180,8 +220,8 @@ overflow-x:hidden;
     <section id="color">
     <img class="ent" src="images/dancing.png">
     <div class="entertainment">
-        <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" target="_blank" height="50px" width="150px">-Youtube</a><br>
-        <a href="https://gaana.com/" target="_blank"><img src="images/gaana.jfif" target="_blank" height="70px" width="150px">-Gaana</a>
+        <a  class="youtube"href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" target="_blank" height="50px" width="150px">-Youtube</a><br>
+        <a class="gana" href="https://gaana.com/" target="_blank"><img src="images/gaana.jfif" target="_blank" height="70px" width="150px">-Gaana</a>
     </div>
     </section>
     </center>
@@ -189,7 +229,7 @@ overflow-x:hidden;
     <hr noshadow>
     <div class="contact">
         <h3>Contact:</h3>
-        <p>Hi guys this is sankar.....currently i am inable to give my contact details we will definetly provide our details in the next upgrade</p>
+        <p id="pl">Hi guys this is sankar.....currently i am inable to give my contact details we will definetly provide our details in the next upgrade</p>
     </div>
     <script src="index.js"></script>
 </body>
