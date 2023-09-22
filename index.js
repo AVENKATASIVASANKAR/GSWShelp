@@ -19,7 +19,6 @@ if (minutes % 60 === 0  && seconds <= 5){
   audio.play();
   }
       else if(minutes / 30 === 1 && seconds <= 5){
-          
           var audio = new Audio('sound/alarmClock.mp3');
           audio.play();
       }
