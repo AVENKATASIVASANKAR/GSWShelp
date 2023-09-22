@@ -15,8 +15,7 @@ var timer=setInterval(function(){
 
 
 if (minutes % 60 === 0  && seconds <= 5){
- 
-  audio = new Audio('sound/alarm1.wav');
+  audio = new Audio('sound/alarm1(1).wav');
   audio.play();
   }
       else if(minutes / 30 === 1 && seconds <= 5){
